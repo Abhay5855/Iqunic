@@ -1,11 +1,15 @@
 
-import './App.css';
+import './App.scss';
+import MainLayout from "../src/pages/main/index"
 
 function App() {
   return (
-    <div>
+    <>
+
+    <MainLayout />
       
-    </div>
+      
+    </>
   );
 }
 

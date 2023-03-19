@@ -1,0 +1,154 @@
+
+
+
+.home__section {
+
+     width: 100%;
+     background-color: #fff;
+     position: relative; 
+}
+
+
+.home__main{
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.home__banner {
+         
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.vector__img {
+
+       position: absolute;
+       top: 60%;
+       right: 70%;
+       left: 30%;
+
+}
+
+@media screen and (min-width:768px) {
+
+      .home__section1{
+
+          flex : 0 0 40%;
+          max-width: 40%;
+          padding: 0 2em 0 5em;
+      }
+      .home__section2{
+
+          flex : 0 0 60%;
+          max-width: 60%;
+          background-image: url("../../assets/images/home2.svg");
+          background-repeat: no-repeat;
+          background-position: 100%;
+          background-size: contain;
+          padding: 500px 0 20px 0;
+      }
+
+      .home__text {
+
+          color: #6C009F;
+          font-size: 1.75em;
+          font-weight: 700;
+          line-height: 1.35;
+          margin-bottom: 0.5em;
+      }
+
+      .home__desc {
+
+          margin-bottom: 4em;
+          line-height: 1.4;
+          color: #515151;
+          font-size: 20px;
+          font-weight: 400;
+
+
+      }
+
+      .home__button {
+
+           outline: transparent;
+           border-radius: 20px;
+           background:rgba(108, 0, 159, 0.99);
+           color:#fff;
+           padding: 12.5px 30px;
+           cursor: pointer;
+           font-weight: 700;
+           font-size: 18px;
+      }
+    
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
